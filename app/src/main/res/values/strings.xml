@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">果蔬助手</string>
+    <string name="title_home">优果推荐</string>
+    <string name="title_dashboard">社区</string>
+    <string name="title_notifications">挑果蔬</string>
+    <string name="title_fourth">果蔬自营</string>
+    <string name="title_fifth">我的</string>
+    <string name="search_hint_by_goods">试试搜索：西瓜</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc_attr_choose">这是属性的描述，属性包括外观手感口感气味巴拉巴拉···这是属性的描述，属性包括外观手感口感气味巴拉巴拉···</string>
+    <string name="desc_way_eat">这是菜或吃法的描述，文档里没写啊啊啊···这是菜或吃法的描述，文档里没写啊啊啊···这是菜或吃法的描述，文档里没写啊啊啊···
+        这是菜或吃法的描述，文档里没写啊啊啊···这是菜或吃法的描述，文档里没写啊啊啊···</string>
+    <string name="desc_baiKe_desc">这是百科简介的描述，味道还行···这是百科简介的描述，味道还行···这是百科简介的描述，味道还行···
+    据央视新闻发布的消息，央视主播回顾20年阿富汗战争时指出，美国当年发动战争的时候，声称要给阿富汗建立新的政府，然而美国现在撂担子不干了，就开始声称美国的任务根本不是对阿富汗的重建。央视主播认为，美国这个所谓的漂亮国，就是一张嘴两张皮，
+漂亮话随便说，然而美国的所作所为，却与漂亮无关。美国做得一点也不漂亮，美国自己心里清楚阿富汗为什么会搞成今天这个样子。事实上，美国也确实没重建阿富汗的本事，也许美国自己才是需要重建的那个了。
+对阿富汗事务，中方的一贯态度就是“尊重阿富汗人民自主决定自身命运前途的权利”。因为各个国家自己的路总归要自己走。阿富汗塔利班将组建新政府，说明美国夹带私货、扶植政权那一套，败了个彻彻底底！
+今天，我在央视新闻看到一段视频，看看美国人来的时候和撤的时候都怎么说。看完真让人感概，时间就是一面镜子，能照出很多。美国人来的时候曾信誓旦旦地说，要帮助阿富汗建立稳定的政府。拍拍屁股走人的时候，给出的理由却是美国的任务从来不是重建阿富汗。
+一张嘴两张皮，漂亮国就是会说漂亮话，想怎么说就怎么说。但这事干得却一点也不漂亮。阿富汗当前乱局的成因，美国自己心里明镜似的，不过是揣着明白装糊涂罢了，国际社会更看得清清楚楚。美国也的确重建不了阿富汗，或许该重建的正是美国自己！</string>
+    <string name="content_tip">不要看我，会变得不幸···不要看我，会变得不幸···不要看我，会变得不幸···不要看我，会变得不幸···</string>
+    <string name="desc_home">商品描述（简介）吃个桃桃，嗯好凉凉~</string>
+    <string name="x_c_s_z">溶解阻塞于组织中的纤维蛋白和血凝块，改善局部 的血液循环，消除炎症和水肿。</string>
+    <string name="j_f">菠萝减肥的秘密在于它丰富的果汁，能有效地酸解 脂肪，可以每天有效地在食物中搭配食用菠萝或饮 用菠萝汁，但是切忌过量或食用未经处理的生菠萝 第一容易降低味觉，刺激口腔粘膜;第二，容易 导致生产菠萝蛋白酶，对这种蛋白酶过敏的人，会 出现皮肤发痒等症状。</string>
+    <string name="x_h">具有健胃消食、补脾止泻、清胃解渴的功效。菠萝 的诱人香味则是来自其成分中的酸丁酯，具有刺激 唾液分泌及促进食欲的功效。</string>
+    <string name="q_y">菠萝中所含的蛋白质分解酵索可以分解蛋白质及助 消化，对于长期食用过多肉类及油腻食物的现代人 来说，是一种很合适的水果。</string>
+    <string name="m_r">防止皮肤干裂，滋润头发的光亮，同时也可以可以 消除身体的紧张感和增强肌体的免疫力。</string>
+    <string name="t1">Lorem ipsum dolor sit amet, consectetur adipi- scing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et</string>
+    <string name="t2">Lorem ipsum dolor sit amet, consectetur adipi- scing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et</string>
+    <string name="t3">L orem ipsum dolor sit amet, consectetur adipi- scing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Pluctus pharetra vulpu- tate, felis tellus molis orci, sed rhoncus pronin sapien nunc accuan eget.</string>
+    <string name="t4">Lorem ipsum dolor sit amet, consectetur adipi- scing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Pluctus pharetra vulpu- tate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.L orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euis- mod bibendum laoreet. Proin gravida dolor sit</string>
+</resources>

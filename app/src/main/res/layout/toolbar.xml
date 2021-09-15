@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gszs"
+    android:orientation="horizontal">
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_toLeftOf="@+id/iv_scan"-->
+<!--        android:background="@drawable/shape_search"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:paddingRight="10dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/et_search"-->
+<!--            android:layout_width="320dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:background="@null"-->
+<!--            android:hint="@string/search_hint"-->
+<!--            android:textSize="16sp" />-->
+
+<!--    </RelativeLayout>-->
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:iconifiedByDefault="false"
+        android:background="@drawable/shape_search"
+        android:queryBackground="@null"
+        android:showDividers="none"
+        android:submitBackground="@null"
+        android:queryHint="@string/search_hint_by_goods" />
+<!--    android:queryBackground="@null"-->
+<!--    android:showDividers="none"-->
+<!--    android:submitBackground="@null"-->
+<!--    以上三个属性消除下划线-->
+    <ImageView
+        android:id="@+id/iv_scan"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/big_scan" />
+
+
+</RelativeLayout>

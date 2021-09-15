@@ -1,0 +1,2 @@
+rootProject.name = "GSZS"
+include ':app'

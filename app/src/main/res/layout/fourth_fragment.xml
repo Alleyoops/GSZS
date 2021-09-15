@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fourth.fourth">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/gszs">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="果蔬自营"
+            android:textColor="@color/fonts"
+            android:textSize="20sp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RV_four"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ViewFlipper
+                    android:id="@+id/flipper_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:autoStart="true"
+                    android:inAnimation="@anim/come_in"
+                    android:outAnimation="@anim/get_out"
+                    android:flipInterval="2000">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ad1"
+                        android:scaleType="fitXY"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ad2"
+                        android:scaleType="fitXY"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ad3"
+                        android:scaleType="fitXY"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ad4"
+                        android:scaleType="fitXY"/>
+                </ViewFlipper>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="广告"
+                    android:padding="2dp"
+                    android:textColor="@color/white"/>
+            </FrameLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#eee" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/photo_fourth"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_margin="10dp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#eee" />
+                    <TextView
+                        android:id="@+id/name_fourth"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="商品名"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:paddingLeft="10dp"
+                        android:gravity="center_vertical"/>
+                    <TextView
+                        android:id="@+id/desc_fourth"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="商品描述"
+                        android:paddingLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:textSize="12sp"/>
+                    <TextView
+                        android:id="@+id/price_fourth"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="价格"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/red"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#eee" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="现在下单，最快今天11:45-12:15送达（免运费）"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#eee" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="暂时不可加入购物车"
+                        android:gravity="center"
+                        android:background="@color/gszs" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#eee" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="详情"
+                        android:gravity="center" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#eee" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="产地                    江苏省盐城市"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:gravity="center_vertical" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="储存条件             常温"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:gravity="center_vertical" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="净含量                  3kg+"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:gravity="center_vertical" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#eee" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="@string/desc_baiKe_desc" />
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

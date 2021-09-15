@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.notifications.NotificationsFragment">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_height"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp">
+                <include
+                    layout="@layout/toolbar"
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorColor="@color/gszs"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabSelectedTextColor="@color/gszs"
+        app:tabTextColor="@color/fonts" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/tab_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.viewpager.widget.ViewPager>
+        <ImageView
+            android:id="@+id/nothing"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:src="@drawable/nothing" />
+    </RelativeLayout>
+</LinearLayout>

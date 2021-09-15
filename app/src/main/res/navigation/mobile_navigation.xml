@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home"><!-- 起始页 -->
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.gszs.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.gszs.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.gszs.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_fourth"
+        android:name="com.example.gszs.ui.fourth.fourth"
+        android:label="@string/title_fourth"
+        tools:layout="@layout/fourth_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_fifth"
+        android:name="com.example.gszs.ui.fifth.fifth"
+        android:label="@string/title_fifth"
+        tools:layout="@layout/fifth_fragment" />
+</navigation>

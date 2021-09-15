@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pager1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.Fragment.PagerFragment1">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.gjiazhe.wavesidebar.WaveSideBar
+        android:id="@+id/side_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="8dp"
+        app:sidebar_lazy_respond="false"
+        app:sidebar_max_offset="80dp"
+        app:sidebar_position="right"
+        app:sidebar_text_alignment="center"
+        app:sidebar_text_color="#8D6E63"
+        app:sidebar_text_size="14sp" />
+</FrameLayout>
