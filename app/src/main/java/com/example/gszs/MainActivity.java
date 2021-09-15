@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         //NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         //NavigationUI.setupWithNavController(binding.navView, navController);
+
         initFragment();
 
     }
@@ -68,9 +69,11 @@ public class MainActivity extends AppCompatActivity {
         fragment4 = new fourth();
         fragment5 = new fifth();
         fragments = new Fragment[]{fragment1,fragment2,fragment3,fragment4,fragment5};
-        lastFragment = 0;
-        getSupportFragmentManager().beginTransaction().replace(R.id.lin_lay_fragment,fragment1).show(fragment1).commit();
+        //更改默认首页
+        lastFragment = 2;
+        getSupportFragmentManager().beginTransaction().replace(R.id.lin_lay_fragment,fragment3).show(fragment3).commit();
         bottomNavigationView = findViewById(R.id.nav_view);
+        bottomNavigationView.setSelectedItemId(R.id.navigation_notifications);
         bottomNavigationView.setOnNavigationItemSelectedListener(changeFragment);
     }
     //判断选择的菜单
